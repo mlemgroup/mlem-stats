@@ -16,9 +16,10 @@ for i in instances:
     if i["score"] <= 0 or i["counts"]["users"] < 20 or i["susReason"]:
         continue
 
+    host = i["url"].removeprefix("https://").removeprefix("http://").removesuffix("/")
     new = {
         "name": i["name"],
-        "url": i["url"],
+        "host": host,
         "user_count": i["counts"]["users"],
         "avatar": i.get("icon"),
         "version": i["version"]
