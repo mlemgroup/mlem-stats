@@ -16,7 +16,6 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: execute py script
-        uses: actions/checkout@v3
         run: |
           python main.py
           git config user.name github-actions
