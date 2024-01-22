@@ -1,5 +1,8 @@
 name: fetch stats
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: "30 11 * * *"    #runs at 11:30 UTC everyday
 jobs:
