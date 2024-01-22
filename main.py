@@ -10,6 +10,7 @@ with urllib.request.urlopen("https://data.lemmyverse.net/data/instance.full.json
 
 instances.sort(key=lambda x: x["score"], reverse=True)
 
+print(instances[0])
 output = []
 
 for i in instances:
@@ -17,8 +18,8 @@ for i in instances:
         continue
 
     new = {
-        "display_name": i["name"],
-        "name": i["baseurl"],
+        "name": i["name"],
+        "url": i["url"],
         "user_count": i["counts"]["users"],
         "avatar": i.get("icon"),
         "version": i["version"]
