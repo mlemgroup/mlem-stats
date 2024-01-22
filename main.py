@@ -13,7 +13,7 @@ instances.sort(key=lambda x: x["score"], reverse=True)
 output = []
 
 for i in instances:
-    if i["score"] <= 0 or i["counts"]["users"] < 10 or i["susReason"]:
+    if i["score"] <= 0 or i["counts"]["users"] < 20 or i["susReason"]:
         continue
 
     new = {
