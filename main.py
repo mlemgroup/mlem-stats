@@ -26,6 +26,7 @@ for i in instances:
 
     output.append(new)
 
-print(f"Saved {len(output)} of {len(instances)} instances")
 with open("output/instances_by_score.json", "w") as f:
     json.dump(output, f)
+
+print(f"Saved {len(output)} of {len(instances)} instances")
