@@ -4,7 +4,7 @@ A script that fetches instance data from https://data.lemmyverse.net/ and procce
 
 ## `output/instances_by_score.json`
 
-A list of instances sorted by score, and filtered to exclude certain instances. This list is used by Mlem for the instance-searching feature. Instances are stored in the following format:
+This list is used by Mlem for the instance-searching feature. Instances are stored in the following format:
 
 ```json
 {
@@ -15,3 +15,10 @@ A list of instances sorted by score, and filtered to exclude certain instances. 
   "version": "0.18.5"
 }
 ```
+
+The list of instances is sorted by a 'score' value. This value is determined by data.lemmyverse.net. It roughly (but not exactly) corresponds to the size of the instance. 
+
+An instance is excluded from the list if:
+- It has a negative score
+- It has less than 20 users
+- It has a `susReason`
