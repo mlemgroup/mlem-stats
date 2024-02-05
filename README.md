@@ -19,6 +19,7 @@ This list is used by Mlem for the instance-searching feature. Instances are stor
 The list of instances is sorted by a 'score' value. This value is determined by data.lemmyverse.net. It roughly (but not exactly) corresponds to the size of the instance. 
 
 An instance is excluded from the list if:
-- It has a negative score
-- It has less than 20 users
-- It has a `susReason`
+- It has a negative score.
+- It has less than 20 users.
+- It has a `susReason`.
+- It is listed in the `input/blacklist.json` file.

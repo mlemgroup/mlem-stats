@@ -10,10 +10,16 @@ with urllib.request.urlopen("https://data.lemmyverse.net/data/instance.full.json
 
 instances.sort(key=lambda x: x["score"], reverse=True)
 
+with open("input/blacklist.json", "r") as f:
+    blacklist = json.load(f)
+
 output = []
 
 for i in instances:
     if i["score"] <= 0 or i["counts"]["users"] < 20 or i["susReason"]:
+        continue
+
+    if i["baseurl"] in blacklist:
         continue
 
     host = i["url"].removeprefix("https://").removeprefix("http://").removesuffix("/")
@@ -22,7 +28,7 @@ for i in instances:
         "host": host,
         "user_count": i["counts"]["users"],
         "avatar": i.get("icon"),
-        "version": i["version"]
+        "version": i["version"],
     }
 
     output.append(new)
