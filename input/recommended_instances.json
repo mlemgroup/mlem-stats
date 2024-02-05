@@ -1,0 +1,104 @@
+{
+  "general_purpose": [
+    "lemmy.zip",
+    "lemmy.org",
+    "lemy.lol",
+    "discuss.online"
+  ],
+  "region": [
+    "DE": ["feddit.de"],
+    "CA": ["lemmy.ca"],
+    "AU": ["aussie.zone"],
+    "NL": ["lemmy.nl"],
+    "GB": ["feddit.uk"],
+    "IT": ["feddit.it"],
+    "FR": ["jlai.lu", "sh.itjust.works"],
+    "BR": ["lemmy.eco.br"],
+    "NZ": ["lemmy.nz"],
+    "DK": ["feddit.dk"],
+    "CH": ["feddit.ch"],
+    "SE": ["feddit.nu"],
+    "CL": ["feddit.cl"],
+    "RO": ["feddit.ro"],
+    "PL": ["fedit.pl"]
+  ],
+  "categories": [
+    {
+      "name": "tech",
+      "title": "Tech",
+      "instances": [
+        {
+          "domain": "compuverse.uk",
+          "caption": "For all forms of technology."
+        },
+                {
+          "domain": "programming.dev",
+          "caption": "For discussion around programming."
+        },
+        {
+          "domain": "iusearchlinux.fyi",
+          "caption": "For those who use Arch (btw)."
+        },
+        {
+          "domain": "talk.macstack.net",
+          "caption": "For Apple Mac enthusiasts.
+        },
+        {
+          "domain": "lemmy.radio",
+          "caption": "For amateur radio enthusiasts."
+        }
+      ]
+    },
+    {
+      "name": "literature",
+      "title": "Literature",
+      "instances": [
+        {
+          "domain": "literature.cafe",
+          "caption": "Focused around reading and writing."
+        },
+        {
+          "domain": "bookwormstory.social",
+          "caption": "For fans of the \"Ascendance of a Bookworm\" series."
+        }
+      ]
+    },
+    {
+      "name": "gaming",
+      "title": "Gaming",
+      "instances": [
+        {
+          "domain": "preserve.games",
+          "caption": "For video game preservation and history.
+        },
+        {
+          "domain": "lemmy.minetest.ch",
+          "caption": "Minetest"
+        }
+      ]
+    }
+    {
+      "name": "movies",
+      "title": "Movies",
+      "instances": [
+        {
+          "domain": "startrek.website",
+          "caption": null
+        }
+      ]
+    },
+    {
+      "name": "other",
+      "title": "Other",
+      "instances": [
+        {
+          "domain": "ttrpg.network",
+          "caption": "For Table-Top Roleplaying Games."
+        },
+        {
+          "domain": "rblind.com",
+          "caption": "For blind and visually impaired people".
+        }
+      ]
+  ]
+}
