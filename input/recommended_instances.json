@@ -41,7 +41,7 @@
         },
         {
           "domain": "talk.macstack.net",
-          "caption": "For Apple Mac enthusiasts.
+          "caption": "For Apple Mac enthusiasts."
         },
         {
           "domain": "lemmy.radio",
@@ -69,7 +69,7 @@
       "instances": [
         {
           "domain": "preserve.games",
-          "caption": "For video game preservation and history.
+          "caption": "For video game preservation and history."
         },
         {
           "domain": "lemmy.minetest.ch",
@@ -97,7 +97,7 @@
         },
         {
           "domain": "rblind.com",
-          "caption": "For blind and visually impaired people".
+          "caption": "For blind and visually impaired people."
         }
       ]
   ]
