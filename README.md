@@ -16,7 +16,7 @@ This list is used by Mlem for the instance-searching feature. Instances are stor
 }
 ```
 
-The list of instances is sorted by a 'score' value. This value is determined by data.lemmyverse.net. It roughly (but not exactly) corresponds to the size of the instance. 
+The list of instances is sorted by a 'score' value. This value is determined by data.lemmyverse.net. 
 
 An instance is excluded from the list if:
 - It has a negative score.
