@@ -1,6 +1,6 @@
 A script that fetches instance data from https://data.lemmyverse.net/ and proccesses it into JSON files stored under the `output` directory. The script is executed every 24h by a Github Action. The Mlem client fetches the JSON files from the repo to display in-app data.
 
-# Data Schema
+## Data Schema
 
 Output files always store instances with the following properties.
 
@@ -14,11 +14,11 @@ Output files always store instances with the following properties.
 }
 ```
 
-# Output Files
+## Output Files
 
-## `instances_by_score.json`
+### `instances_by_score.json`
 
-This list is used by Mlem for the instance-searching feature. It is a list of instances (stored in the format described above).
+This list is used by Mlem for the instance-searching feature. It is a list of instances stored in the format described above.
 The list of instances is sorted by a 'score' value, which is determined by data.lemmyverse.net. 
 
 An instance is excluded from the list if:
@@ -54,10 +54,10 @@ A list of Lemmy versions, with the number of instances running each version. Thi
 }
 ```
 
-## `versions/full_list.json`
+### `versions/full_list.json`
 
 Similar to `versions/short_list.json`, but adds an additional `instances` property that stores a list of all instances running that version. Each instance in the list uses the format described under Data Schema above.
 
-## `versions/version/*.json`
+### `versions/version/*.json`
 
 Stores the number of instances running a version or any variations of that version for each day over the last 30 days, and each week since the version was first seen. Data isn't guaranteed to be recorded exactly every day/week - no data will be recorded if zero instances were running that version on a given day.
