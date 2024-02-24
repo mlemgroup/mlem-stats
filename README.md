@@ -27,7 +27,7 @@ An instance is excluded from the list if:
 - It has a `susReason`.
 - It is listed in the `input/blacklist.json` file.
 
-## `versions/short_list.json`
+### `versions/short_list.json`
 
 A list of Lemmy versions, with the number of instances running each version. This counts all Lemmy instances, and isn't filtered like `instances_by_score.json` is. This isn't currently used in Mlem yet.
 
