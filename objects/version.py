@@ -15,16 +15,24 @@ class Version:
 
     def __init__(self, name: str) -> None:
         self.name: str = name
-        self.instances: list[InstanceStub] = []
+        self.instances: list[Instance] = []
 
     def add(self, instance: Instance) -> None:
-        self.instances.append(instance.to_dict())
+        self.instances.append(instance)
 
     def to_short_dict(self) -> ShortData:
         return Version.ShortData(name=self.name, count=len(self.instances))
 
+    def sort_instances(self) -> list[InstanceStub]:
+        return list(
+            map(
+                lambda x: x.to_dict(include_version=False),
+                (sorted(self.instances, key=lambda x: x.score, reverse=True)),
+            )
+        )
+
     def to_full_dict(self) -> FullData:
-        return Version.FullData(name=self.name, instances=self.instances)
+        return Version.FullData(name=self.name, count=len(self.instances), instances=self.sort_instances())
 
     @property
     def value(self) -> tuple[int, ...]:

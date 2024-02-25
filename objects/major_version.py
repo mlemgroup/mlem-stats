@@ -44,6 +44,6 @@ class MajorVersion(Version):
             name=self.name,
             count=len(self.instances),
             count_including_variations=self.count_including_variations,
-            instances=self.instances,
+            instances=self.sort_instances(),
             variations=[i.to_full_dict() for i in variations],
         )

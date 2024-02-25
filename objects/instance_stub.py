@@ -1,7 +1,7 @@
 from typing import TypedDict
 
 
-class InstanceStub(TypedDict):
+class InstanceStub(TypedDict, total=False):
     """
     Used in instances_by_score.json.
     """

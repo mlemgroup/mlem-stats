@@ -13,14 +13,18 @@ class Instance:
     @classmethod
     def load_all(cls) -> list["Instance"]:
         print("Reading instances...")
-        with urllib.request.urlopen("https://data.lemmyverse.net/data/instance.full.json") as f:
+        with urllib.request.urlopen(
+            "https://data.lemmyverse.net/data/instance.full.json"
+        ) as f:
             instances: list[Instance] = []
             raw_instances: list[dict[str, Any]] = json.load(f)
             for instance_data in raw_instances:
                 try:
                     instances.append(Instance(instance_data))
                 except KeyError:
-                    print(f"    Failed to read instance data for {instance_data['baseurl']}")
+                    print(
+                        f"    Failed to read instance data for {instance_data['baseurl']}"
+                    )
 
         instances.sort(key=lambda x: x.score, reverse=True)
         print(f"Read {len(instances)} of {len(raw_instances)} instances")
@@ -49,11 +53,19 @@ class Instance:
             self.url.removeprefix("https://").removeprefix("http://").removesuffix("/")
         )
 
-    def to_dict(self) -> "InstanceStub":
-        return InstanceStub(
-            name=self.name,
-            host=self.host,
-            user_count=self.user_count,
-            avatar=self.avatar,
-            version=self.version,
-        )
+    def to_dict(self, include_version: bool = True) -> "InstanceStub":
+        if include_version:
+            return InstanceStub(
+                name=self.name,
+                host=self.host,
+                user_count=self.user_count,
+                avatar=self.avatar,
+                version=self.version,
+            )
+        else:
+            return InstanceStub(
+                name=self.name,
+                host=self.host,
+                user_count=self.user_count,
+                avatar=self.avatar,
+            )

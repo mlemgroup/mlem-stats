@@ -56,7 +56,7 @@ A list of Lemmy versions, with the number of instances running each version. Thi
 
 ### `versions/full_list.json`
 
-Similar to `versions/short_list.json`, but adds an additional `instances` property that stores a list of all instances running that version. Each instance in the list uses the format described under Data Schema above.
+Similar to `versions/short_list.json`, but adds an additional `instances` property that stores a list of all instances running that version. Each instance in the list uses the format described under Data Schema above, but without the `version` property.
 
 ### `versions/version/*.json`
 

@@ -14,7 +14,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 with urllib.request.urlopen("https://data.lemmyverse.net/data/meta.json") as f:
     data = json.load(f)
     lemmyverse_last_updated = datetime.datetime.fromtimestamp(data["time"] // 1000)
-    last_updated_timestamp = lemmyverse_last_updated.timestamp()
+    last_updated_timestamp = int(lemmyverse_last_updated.timestamp())
     print(
         f"{lemmyverse_last_updated:Lemmyverse was last updated on %m/%d/%Y at %H:%M:%S.}"
     )
