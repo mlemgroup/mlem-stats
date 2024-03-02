@@ -1,10 +1,10 @@
 {
-    "timestamp": 1709273099,
+    "timestamp": 1709359485,
     "versions": [
         {
             "name": "0.19.3",
-            "count": 376,
-            "count_including_variations": 377,
+            "count": 379,
+            "count_including_variations": 380,
             "variations": [
                 {
                     "name": "0.19.3-1-gd05f00d4c",
@@ -14,8 +14,8 @@
         },
         {
             "name": "0.19.2",
-            "count": 47,
-            "count_including_variations": 50,
+            "count": 45,
+            "count_including_variations": 48,
             "variations": [
                 {
                     "name": "0.19.2+tedomum.2",
@@ -79,8 +79,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 98,
-            "count_including_variations": 100,
+            "count": 96,
+            "count_including_variations": 98,
             "variations": [
                 {
                     "name": "0.18.5-nsfw",
@@ -173,8 +173,8 @@
         },
         {
             "name": "0.18.0",
-            "count": 18,
-            "count_including_variations": 19,
+            "count": 16,
+            "count_including_variations": 17,
             "variations": [
                 {
                     "name": "0.18.0-rc.5",
