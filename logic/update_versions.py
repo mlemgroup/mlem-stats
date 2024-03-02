@@ -2,6 +2,7 @@ import json
 import os
 from typing import TypedDict
 
+from objects.instance import Instance
 from objects.major_version import MajorVersion
 
 PER_DAY_CACHE_LENGTH = 30
@@ -28,6 +29,11 @@ class FullVersionList(TypedDict):
     versions: list[MajorVersion.FullData]
 
 
+class TopInstancesVersions(TypedDict):
+    time: int
+    instances: dict[str, str]
+
+
 class VersionCount(TypedDict):
     time: int
     count: int
@@ -42,39 +48,101 @@ class SingleVersionData(TypedDict):
     per_week: list[VersionCount]
 
 
+class UpdateEvent(TypedDict):
+    host: str
+    precise_time: int | None
+    old_version: str
+    new_version: str
+
+
+class EventGroup(TypedDict):
+    time: int
+    events: list[UpdateEvent]
+
+
 def write_all(
-    versions: list["MajorVersion"],
+    instances: list[Instance],
+    versions: list[MajorVersion],
     time: int,
 ) -> None:
     """
     Write data from the given list of MajorVersion instances to the files stored under the output/versions directory
     """
-
+    write_events_and_instance_versions(instances, time)
     write_short_list_file(versions, time)
     write_full_list_file(versions, time)
     write_single_version_files(versions, time)
 
 
+def write_events_and_instance_versions(instances: list["Instance"], time: int) -> None:
+    with open("output/versions/instance_versions.json", "r") as f:
+        yesterday_data: TopInstancesVersions = json.load(f)
+
+    if yesterday_data["time"] == time:
+        print(
+            "Yesterday's instance_versions.json has matching timestamp. Not updating instance_versions.json"
+        )
+        return
+
+    today_data = TopInstancesVersions(
+        time=time, instances={i.baseurl: i.version for i in instances}
+    )
+
+    with open("output/versions/instance_versions.json", "w") as f:
+        json.dump(today_data, f, indent=4)
+    print("Wrote to output/versions/instance_versions.json")
+
+    today_events: list[UpdateEvent] = []
+    for instance, today_value in today_data["instances"].items():
+        yesterday_value = yesterday_data["instances"][instance]
+        if today_value != yesterday_value:
+            today_events.append(
+                UpdateEvent(
+                    host=instance,
+                    precise_time=None,
+                    old_version=yesterday_value,
+                    new_version=today_value,
+                )
+            )
+
+    if today_events:
+        print(f"Saving {len(today_events)} recent version changes...")
+        with open("output/versions/recent_events.json", "r") as f:
+            event_groups: list[EventGroup] = json.load(f)
+
+        event_groups.append(EventGroup(time=time, events=today_events))
+
+        if len(event_groups) > 30:
+            del event_groups[0]
+
+        with open("output/versions/recent_events.json", "w") as f:
+            json.dump(event_groups, f)
+
+        print("Wrote to output/versions/recent_events.json")
+    else:
+        print("There were no recent version changes.")
+
+
 def write_short_list_file(versions: list["MajorVersion"], time: int) -> None:
     versions.sort(key=lambda x: x.value, reverse=True)
-    with open("output/versions/short_list.json", "w") as f:
+    with open("output/versions/version_list_short.json", "w") as f:
         data = ShortVersionList(
             time=time,
             versions=[i.to_short_dict() for i in versions],
         )
         json.dump(data, f, indent=4)
-    print("Wrote to output/versions/short_list.json")
+    print("Wrote to output/versions/version_list_short.json")
 
 
 def write_full_list_file(versions: list["MajorVersion"], time: int) -> None:
     versions.sort(key=lambda x: x.value, reverse=True)
-    with open("output/versions/full_list.json", "w") as f:
+    with open("output/versions/version_list_full.json", "w") as f:
         data = FullVersionList(
             time=time,
             versions=[i.to_full_dict() for i in versions],
         )
         json.dump(data, f)
-    print("Wrote to output/versions/full_list.json")
+    print("Wrote to output/versions/version_list_full.json")
 
 
 def write_single_version_files(versions: list["MajorVersion"], time: int) -> None:

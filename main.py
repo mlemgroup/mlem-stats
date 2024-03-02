@@ -53,4 +53,4 @@ print(
     f"Wrote {len(instances_by_score)} of {len(instances)} instances to instances_by_score.json"
 )
 
-update_versions.write_all(list(instance_versions.values()), time=last_updated_timestamp)
+update_versions.write_all(instances, list(instance_versions.values()), time=last_updated_timestamp)
