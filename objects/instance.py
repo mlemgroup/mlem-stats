@@ -27,7 +27,10 @@ class Instance:
                     )
 
         instances.sort(key=lambda x: x.score, reverse=True)
-        print(f"Read {len(instances)} of {len(raw_instances)} instances")
+        print(
+            f"Successfully read {len(instances)} of {len(raw_instances)} instances, "
+            f"unable to read {len(raw_instances) - len(instances)}"
+        )
         return instances
 
     def __init__(self, data: dict[str, Any]) -> None:

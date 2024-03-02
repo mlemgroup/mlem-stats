@@ -33,7 +33,7 @@ A list of Lemmy versions, with the number of instances running each version. Thi
 
 ```json
 {
-  "timestamp": 1708776308.0,
+  "time": 1708776308,
   "versions": [
     {
       "name": "0.19.3",
@@ -61,3 +61,17 @@ Similar to `versions/short_list.json`, but adds an additional `instances` proper
 ### `versions/version/*.json`
 
 Stores the number of instances running a version or any variations of that version for each day over the last 30 days, and each week since the version was first seen. Data isn't guaranteed to be recorded exactly every day/week - no data will be recorded if zero instances were running that version on a given day.
+
+```json
+{
+  "per_day": [
+    {"time": 1708776308, "count": 353},
+    {"time": 1708841076, "count": 360},
+    {"time": 1708927514, "count": 361}
+    ],
+  "per_week": [
+    {"time": 1708776308, "count": 353},
+    {"time": 1709402682, "count": 382}
+  ]
+}
+```
