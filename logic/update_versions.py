@@ -95,7 +95,7 @@ def write_events_and_instance_versions(instances: list["Instance"], time: int) -
     today_events: list[UpdateEvent] = []
     for instance, today_value in today_data["instances"].items():
         yesterday_value = yesterday_data["instances"].get(instance)
-        if today_value != yesterday_value:
+        if yesterday_value is not None and today_value != yesterday_value:
             today_events.append(
                 UpdateEvent(
                     host=instance,
