@@ -1,21 +1,25 @@
 {
-    "time": 1709791515,
+    "time": 1709877898,
     "versions": [
         {
             "name": "0.19.3",
-            "count": 384,
-            "count_including_variations": 385,
+            "count": 387,
+            "count_including_variations": 389,
             "variations": [
                 {
                     "name": "0.19.3-1-gd05f00d4c",
+                    "count": 1
+                },
+                {
+                    "name": "0.19.3-69-gc791b880a",
                     "count": 1
                 }
             ]
         },
         {
             "name": "0.19.2",
-            "count": 43,
-            "count_including_variations": 46,
+            "count": 42,
+            "count_including_variations": 45,
             "variations": [
                 {
                     "name": "0.19.2+tedomum.2",
@@ -33,8 +37,8 @@
         },
         {
             "name": "0.19.1",
-            "count": 37,
-            "count_including_variations": 39,
+            "count": 36,
+            "count_including_variations": 38,
             "variations": [
                 {
                     "name": "0.19.1-rc.2-19-g0e6669f61",
@@ -79,8 +83,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 91,
-            "count_including_variations": 93,
+            "count": 89,
+            "count_including_variations": 91,
             "variations": [
                 {
                     "name": "0.18.5-nsfw",
@@ -140,8 +144,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 36,
-            "count_including_variations": 36,
+            "count": 35,
+            "count_including_variations": 35,
             "variations": []
         },
         {
@@ -173,8 +177,8 @@
         },
         {
             "name": "0.18.0",
-            "count": 14,
-            "count_including_variations": 15,
+            "count": 13,
+            "count_including_variations": 14,
             "variations": [
                 {
                     "name": "0.18.0-rc.5",
