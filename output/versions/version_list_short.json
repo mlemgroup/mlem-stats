@@ -1,18 +1,18 @@
 {
-    "time": 1714543548,
+    "time": 1714629920,
     "versions": [
         {
             "name": "0.19.4",
             "count": 0,
-            "count_including_variations": 5,
+            "count_including_variations": 6,
             "variations": [
                 {
                     "name": "0.19.4-beta.5",
-                    "count": 2
+                    "count": 1
                 },
                 {
                     "name": "0.19.4-beta.6",
-                    "count": 2
+                    "count": 4
                 },
                 {
                     "name": "0.19.4-beta.2",
@@ -22,8 +22,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 456,
-            "count_including_variations": 459,
+            "count": 464,
+            "count_including_variations": 467,
             "variations": [
                 {
                     "name": "0.19.3-1-gd05f00d4c",
@@ -52,14 +52,14 @@
         },
         {
             "name": "0.19.1",
-            "count": 23,
-            "count_including_variations": 23,
+            "count": 22,
+            "count_including_variations": 22,
             "variations": []
         },
         {
             "name": "0.19.0",
-            "count": 12,
-            "count_including_variations": 20,
+            "count": 11,
+            "count_including_variations": 19,
             "variations": [
                 {
                     "name": "0.19.0-rc.3",
@@ -89,8 +89,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 50,
-            "count_including_variations": 51,
+            "count": 49,
+            "count_including_variations": 50,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
@@ -100,8 +100,8 @@
         },
         {
             "name": "0.18.4",
-            "count": 43,
-            "count_including_variations": 47,
+            "count": 44,
+            "count_including_variations": 48,
             "variations": [
                 {
                     "name": "0.18.4-fl0w",
