@@ -1,5 +1,5 @@
 {
-    "time": 1717308330,
+    "time": 1717394731,
     "versions": [
         {
             "name": "0.19.4",
@@ -45,8 +45,8 @@
         },
         {
             "name": "0.19.2",
-            "count": 18,
-            "count_including_variations": 19,
+            "count": 19,
+            "count_including_variations": 20,
             "variations": [
                 {
                     "name": "0.19.2-rc.3.publish4",
@@ -56,8 +56,8 @@
         },
         {
             "name": "0.19.1",
-            "count": 17,
-            "count_including_variations": 17,
+            "count": 16,
+            "count_including_variations": 16,
             "variations": []
         },
         {
