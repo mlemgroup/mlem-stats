@@ -1,16 +1,16 @@
 {
-    "time": 1721628356,
+    "time": 1721714743,
     "versions": [
         {
             "name": "0.19.5",
-            "count": 282,
-            "count_including_variations": 282,
+            "count": 279,
+            "count_including_variations": 279,
             "variations": []
         },
         {
             "name": "0.19.4",
-            "count": 34,
-            "count_including_variations": 42,
+            "count": 32,
+            "count_including_variations": 40,
             "variations": [
                 {
                     "name": "0.19.4-rc.11",
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 189,
-            "count_including_variations": 193,
+            "count": 184,
+            "count_including_variations": 188,
             "variations": [
                 {
                     "name": "0.19.3-4-gf13026779",
@@ -59,8 +59,8 @@
         },
         {
             "name": "0.19.2",
-            "count": 10,
-            "count_including_variations": 10,
+            "count": 9,
+            "count_including_variations": 9,
             "variations": []
         },
         {
@@ -71,8 +71,8 @@
         },
         {
             "name": "0.19.0",
-            "count": 4,
-            "count_including_variations": 10,
+            "count": 5,
+            "count_including_variations": 11,
             "variations": [
                 {
                     "name": "0.19.0-rc.3",
@@ -98,8 +98,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 26,
-            "count_including_variations": 27,
+            "count": 24,
+            "count_including_variations": 25,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
@@ -134,8 +134,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 24,
-            "count_including_variations": 24,
+            "count": 23,
+            "count_including_variations": 23,
             "variations": []
         },
         {
