@@ -1,14 +1,14 @@
 {
-    "time": 1725343551,
+    "time": 1725429965,
     "versions": [
         {
             "name": "0.19.6",
             "count": 0,
-            "count_including_variations": 4,
+            "count_including_variations": 5,
             "variations": [
                 {
                     "name": "0.19.6-beta1",
-                    "count": 2
+                    "count": 3
                 },
                 {
                     "name": "0.19.6-beta.7",
@@ -18,8 +18,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 336,
-            "count_including_variations": 336,
+            "count": 342,
+            "count_including_variations": 342,
             "variations": []
         },
         {
@@ -51,8 +51,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 148,
-            "count_including_variations": 151,
+            "count": 150,
+            "count_including_variations": 153,
             "variations": [
                 {
                     "name": "0.19.3-6-g86e4cb214",
@@ -70,8 +70,8 @@
         },
         {
             "name": "0.19.2",
-            "count": 6,
-            "count_including_variations": 6,
+            "count": 7,
+            "count_including_variations": 7,
             "variations": []
         },
         {
@@ -83,12 +83,8 @@
         {
             "name": "0.19.0",
             "count": 4,
-            "count_including_variations": 8,
+            "count_including_variations": 7,
             "variations": [
-                {
-                    "name": "0.19.0-rc.3",
-                    "count": 1
-                },
                 {
                     "name": "0.19.0-rc.2",
                     "count": 1
@@ -105,8 +101,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 22,
-            "count_including_variations": 23,
+            "count": 21,
+            "count_including_variations": 22,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
