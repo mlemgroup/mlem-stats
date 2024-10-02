@@ -1,5 +1,5 @@
 {
-    "time": 1727762768,
+    "time": 1727849203,
     "versions": [
         {
             "name": "0.19.6",
@@ -18,8 +18,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 351,
-            "count_including_variations": 351,
+            "count": 349,
+            "count_including_variations": 349,
             "variations": []
         },
         {
@@ -47,8 +47,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 130,
-            "count_including_variations": 133,
+            "count": 131,
+            "count_including_variations": 134,
             "variations": [
                 {
                     "name": "0.19.3-6-g86e4cb214",
@@ -79,10 +79,14 @@
         {
             "name": "0.19.0",
             "count": 3,
-            "count_including_variations": 5,
+            "count_including_variations": 6,
             "variations": [
                 {
                     "name": "0.19.0-rc.2",
+                    "count": 1
+                },
+                {
+                    "name": "0.19.0-rc.1",
                     "count": 1
                 },
                 {
@@ -93,8 +97,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 21,
-            "count_including_variations": 22,
+            "count": 19,
+            "count_including_variations": 20,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
@@ -104,8 +108,8 @@
         },
         {
             "name": "0.18.4",
-            "count": 18,
-            "count_including_variations": 20,
+            "count": 19,
+            "count_including_variations": 21,
             "variations": [
                 {
                     "name": "0.18.4-fl0w",
@@ -130,8 +134,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 18,
-            "count_including_variations": 18,
+            "count": 19,
+            "count_including_variations": 19,
             "variations": []
         },
         {
