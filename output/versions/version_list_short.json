@@ -1,5 +1,5 @@
 {
-    "time": 1728626767,
+    "time": 1728713152,
     "versions": [
         {
             "name": "0.19.6",
@@ -55,8 +55,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 120,
-            "count_including_variations": 123,
+            "count": 121,
+            "count_including_variations": 124,
             "variations": [
                 {
                     "name": "0.19.3-6-g86e4cb214",
@@ -101,8 +101,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 18,
-            "count_including_variations": 19,
+            "count": 19,
+            "count_including_variations": 20,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
