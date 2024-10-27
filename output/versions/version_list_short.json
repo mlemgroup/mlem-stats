@@ -1,5 +1,5 @@
 {
-    "time": 1729922747,
+    "time": 1730009149,
     "versions": [
         {
             "name": "0.19.6",
@@ -22,8 +22,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 357,
-            "count_including_variations": 357,
+            "count": 360,
+            "count_including_variations": 360,
             "variations": []
         },
         {
@@ -116,8 +116,8 @@
         },
         {
             "name": "0.18.4",
-            "count": 17,
-            "count_including_variations": 19,
+            "count": 16,
+            "count_including_variations": 18,
             "variations": [
                 {
                     "name": "0.18.4-fl0w",
