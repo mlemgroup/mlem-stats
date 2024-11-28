@@ -1,16 +1,16 @@
 {
-    "time": 1732666705,
+    "time": 1732774008,
     "versions": [
         {
             "name": "0.19.7",
-            "count": 147,
-            "count_including_variations": 147,
+            "count": 151,
+            "count_including_variations": 151,
             "variations": []
         },
         {
             "name": "0.19.6",
-            "count": 46,
-            "count_including_variations": 50,
+            "count": 44,
+            "count_including_variations": 48,
             "variations": [
                 {
                     "name": "0.19.6-beta.13",
@@ -32,8 +32,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 174,
-            "count_including_variations": 174,
+            "count": 170,
+            "count_including_variations": 170,
             "variations": []
         },
         {
@@ -65,8 +65,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 101,
-            "count_including_variations": 104,
+            "count": 100,
+            "count_including_variations": 103,
             "variations": [
                 {
                     "name": "0.19.3-7-g527ab90b7",
@@ -107,8 +107,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 16,
-            "count_including_variations": 17,
+            "count": 17,
+            "count_including_variations": 18,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
@@ -140,14 +140,14 @@
         },
         {
             "name": "0.18.2",
-            "count": 17,
-            "count_including_variations": 17,
+            "count": 18,
+            "count_including_variations": 18,
             "variations": []
         },
         {
             "name": "0.18.1",
-            "count": 4,
-            "count_including_variations": 5,
+            "count": 3,
+            "count_including_variations": 4,
             "variations": [
                 {
                     "name": "0.18.1-rc.10",
