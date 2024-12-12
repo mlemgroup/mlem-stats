@@ -1,27 +1,27 @@
 {
-    "time": 1733897198,
+    "time": 1733983601,
     "versions": [
         {
             "name": "0.19.8",
             "count": 0,
-            "count_including_variations": 3,
+            "count_including_variations": 4,
             "variations": [
                 {
                     "name": "0.19.8-beta.0",
-                    "count": 3
+                    "count": 4
                 }
             ]
         },
         {
             "name": "0.19.7",
-            "count": 175,
-            "count_including_variations": 175,
+            "count": 176,
+            "count_including_variations": 176,
             "variations": []
         },
         {
             "name": "0.19.6",
-            "count": 36,
-            "count_including_variations": 41,
+            "count": 35,
+            "count_including_variations": 40,
             "variations": [
                 {
                     "name": "0.19.6-beta.13",
@@ -43,8 +43,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 154,
-            "count_including_variations": 154,
+            "count": 153,
+            "count_including_variations": 153,
             "variations": []
         },
         {
@@ -72,8 +72,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 93,
-            "count_including_variations": 96,
+            "count": 92,
+            "count_including_variations": 95,
             "variations": [
                 {
                     "name": "0.19.3-7-g527ab90b7",
@@ -114,8 +114,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 17,
-            "count_including_variations": 18,
+            "count": 16,
+            "count_including_variations": 17,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
@@ -147,8 +147,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 19,
-            "count_including_variations": 19,
+            "count": 17,
+            "count_including_variations": 17,
             "variations": []
         },
         {
