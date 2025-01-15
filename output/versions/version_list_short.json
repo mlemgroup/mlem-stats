@@ -1,22 +1,22 @@
 {
-    "time": 1736834740,
+    "time": 1736921161,
     "versions": [
         {
             "name": "0.19.8",
-            "count": 192,
-            "count_including_variations": 192,
+            "count": 194,
+            "count_including_variations": 194,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 56,
-            "count_including_variations": 56,
+            "count": 53,
+            "count_including_variations": 53,
             "variations": []
         },
         {
             "name": "0.19.6",
-            "count": 17,
-            "count_including_variations": 22,
+            "count": 18,
+            "count_including_variations": 23,
             "variations": [
                 {
                     "name": "0.19.6-beta.13",
@@ -38,8 +38,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 114,
-            "count_including_variations": 114,
+            "count": 113,
+            "count_including_variations": 113,
             "variations": []
         },
         {
@@ -67,8 +67,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 76,
-            "count_including_variations": 79,
+            "count": 73,
+            "count_including_variations": 76,
             "variations": [
                 {
                     "name": "0.19.3-7-g527ab90b7",
@@ -109,8 +109,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 12,
-            "count_including_variations": 13,
+            "count": 13,
+            "count_including_variations": 14,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
@@ -120,8 +120,8 @@
         },
         {
             "name": "0.18.4",
-            "count": 14,
-            "count_including_variations": 14,
+            "count": 13,
+            "count_including_variations": 13,
             "variations": []
         },
         {
@@ -137,8 +137,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 16,
-            "count_including_variations": 16,
+            "count": 17,
+            "count_including_variations": 17,
             "variations": []
         },
         {
