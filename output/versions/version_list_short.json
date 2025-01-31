@@ -1,16 +1,16 @@
 {
-    "time": 1738217143,
+    "time": 1738238821,
     "versions": [
         {
             "name": "0.19.8",
-            "count": 243,
-            "count_including_variations": 243,
+            "count": 241,
+            "count_including_variations": 241,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 46,
-            "count_including_variations": 46,
+            "count": 45,
+            "count_including_variations": 45,
             "variations": []
         },
         {
@@ -34,14 +34,14 @@
         },
         {
             "name": "0.19.5",
-            "count": 107,
-            "count_including_variations": 107,
+            "count": 105,
+            "count_including_variations": 105,
             "variations": []
         },
         {
             "name": "0.19.4",
-            "count": 9,
-            "count_including_variations": 11,
+            "count": 10,
+            "count_including_variations": 12,
             "variations": [
                 {
                     "name": "0.19.4-rc.4",
@@ -97,8 +97,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 12,
-            "count_including_variations": 13,
+            "count": 11,
+            "count_including_variations": 12,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
@@ -115,13 +115,8 @@
         {
             "name": "0.18.3",
             "count": 6,
-            "count_including_variations": 7,
-            "variations": [
-                {
-                    "name": "0.18.3-rc.3",
-                    "count": 1
-                }
-            ]
+            "count_including_variations": 6,
+            "variations": []
         },
         {
             "name": "0.18.2",
@@ -157,8 +152,8 @@
         },
         {
             "name": "0.17.4",
-            "count": 3,
-            "count_including_variations": 3,
+            "count": 2,
+            "count_including_variations": 2,
             "variations": []
         },
         {
