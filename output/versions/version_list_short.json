@@ -1,16 +1,16 @@
 {
-    "time": 1742105121,
+    "time": 1742191571,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 219,
-            "count_including_variations": 219,
+            "count": 225,
+            "count_including_variations": 225,
             "variations": []
         },
         {
             "name": "0.19.8",
-            "count": 109,
-            "count_including_variations": 109,
+            "count": 106,
+            "count_including_variations": 106,
             "variations": []
         },
         {
@@ -36,21 +36,17 @@
         },
         {
             "name": "0.19.5",
-            "count": 68,
-            "count_including_variations": 68,
+            "count": 69,
+            "count_including_variations": 69,
             "variations": []
         },
         {
             "name": "0.19.4",
             "count": 8,
-            "count_including_variations": 12,
+            "count_including_variations": 11,
             "variations": [
                 {
                     "name": "0.19.4-rc.11",
-                    "count": 1
-                },
-                {
-                    "name": "0.19.4-beta.7",
                     "count": 1
                 },
                 {
@@ -65,17 +61,9 @@
         },
         {
             "name": "0.19.3",
-            "count": 63,
-            "count_including_variations": 66,
+            "count": 62,
+            "count_including_variations": 63,
             "variations": [
-                {
-                    "name": "0.19.3-7-g527ab90b7",
-                    "count": 1
-                },
-                {
-                    "name": "0.19.3-1-gd05f00d4c",
-                    "count": 1
-                },
                 {
                     "name": "0.19.3-103-g60f9a97df",
                     "count": 1
@@ -91,8 +79,12 @@
         {
             "name": "0.19.1",
             "count": 4,
-            "count_including_variations": 6,
+            "count_including_variations": 7,
             "variations": [
+                {
+                    "name": "0.19.10-beta.feddit",
+                    "count": 1
+                },
                 {
                     "name": "0.19.10-beta.2",
                     "count": 2
@@ -130,8 +122,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 7,
-            "count_including_variations": 7,
+            "count": 8,
+            "count_including_variations": 8,
             "variations": []
         },
         {
