@@ -1,33 +1,29 @@
 {
-    "time": 1742623524,
+    "time": 1742709933,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 162,
-            "count_including_variations": 162,
+            "count": 13,
+            "count_including_variations": 13,
             "variations": []
         },
         {
             "name": "0.19.8",
-            "count": 93,
-            "count_including_variations": 93,
+            "count": 11,
+            "count_including_variations": 11,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 24,
-            "count_including_variations": 24,
+            "count": 3,
+            "count_including_variations": 3,
             "variations": []
         },
         {
             "name": "0.19.6",
-            "count": 9,
-            "count_including_variations": 11,
+            "count": 2,
+            "count_including_variations": 3,
             "variations": [
-                {
-                    "name": "0.19.6-beta.7",
-                    "count": 1
-                },
                 {
                     "name": "0.19.6-beta.14",
                     "count": 1
@@ -36,23 +32,15 @@
         },
         {
             "name": "0.19.5",
-            "count": 65,
-            "count_including_variations": 65,
+            "count": 3,
+            "count_including_variations": 3,
             "variations": []
         },
         {
             "name": "0.19.4",
-            "count": 7,
-            "count_including_variations": 10,
+            "count": 1,
+            "count_including_variations": 2,
             "variations": [
-                {
-                    "name": "0.19.4-rc.11",
-                    "count": 1
-                },
-                {
-                    "name": "0.19.4-rc.4",
-                    "count": 1
-                },
                 {
                     "name": "0.19.4-rc.5",
                     "count": 1
@@ -61,33 +49,18 @@
         },
         {
             "name": "0.19.3",
-            "count": 60,
-            "count_including_variations": 61,
-            "variations": [
-                {
-                    "name": "0.19.3-103-g60f9a97df",
-                    "count": 1
-                }
-            ]
-        },
-        {
-            "name": "0.19.2",
-            "count": 1,
-            "count_including_variations": 1,
+            "count": 6,
+            "count_including_variations": 6,
             "variations": []
         },
         {
             "name": "0.19.1",
-            "count": 4,
-            "count_including_variations": 86,
+            "count": 1,
+            "count_including_variations": 12,
             "variations": [
                 {
                     "name": "0.19.10",
-                    "count": 79
-                },
-                {
-                    "name": "0.19.10-beta.feddit",
-                    "count": 1
+                    "count": 9
                 },
                 {
                     "name": "0.19.10-beta.2",
@@ -96,77 +69,43 @@
             ]
         },
         {
-            "name": "0.19.0",
+            "name": "0.18.5",
             "count": 1,
             "count_including_variations": 1,
             "variations": []
         },
         {
-            "name": "0.18.5",
-            "count": 8,
-            "count_including_variations": 9,
-            "variations": [
-                {
-                    "name": "0.18.5-rc.2",
-                    "count": 1
-                }
-            ]
-        },
-        {
             "name": "0.18.4",
-            "count": 9,
-            "count_including_variations": 9,
+            "count": 1,
+            "count_including_variations": 1,
             "variations": []
         },
         {
             "name": "0.18.3",
-            "count": 5,
-            "count_including_variations": 5,
-            "variations": []
-        },
-        {
-            "name": "0.18.2",
-            "count": 6,
-            "count_including_variations": 6,
-            "variations": []
-        },
-        {
-            "name": "0.18.1",
-            "count": 3,
-            "count_including_variations": 4,
-            "variations": [
-                {
-                    "name": "0.18.1-rc.10",
-                    "count": 1
-                }
-            ]
-        },
-        {
-            "name": "0.18.0",
-            "count": 3,
-            "count_including_variations": 3,
-            "variations": []
-        },
-        {
-            "name": "0.17.4",
-            "count": 3,
-            "count_including_variations": 3,
-            "variations": []
-        },
-        {
-            "name": "0.17.3",
-            "count": 3,
-            "count_including_variations": 3,
-            "variations": []
-        },
-        {
-            "name": "0.17.1",
             "count": 1,
             "count_including_variations": 1,
             "variations": []
         },
         {
-            "name": "0.17.0",
+            "name": "0.18.2",
+            "count": 1,
+            "count_including_variations": 1,
+            "variations": []
+        },
+        {
+            "name": "0.18.0",
+            "count": 1,
+            "count_including_variations": 1,
+            "variations": []
+        },
+        {
+            "name": "0.17.4",
+            "count": 1,
+            "count_including_variations": 1,
+            "variations": []
+        },
+        {
+            "name": "0.17.1",
             "count": 1,
             "count_including_variations": 1,
             "variations": []
