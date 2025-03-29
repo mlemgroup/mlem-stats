@@ -1,28 +1,28 @@
 {
-    "time": 1743141969,
+    "time": 1743228333,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 129,
-            "count_including_variations": 129,
+            "count": 128,
+            "count_including_variations": 128,
             "variations": []
         },
         {
             "name": "0.19.8",
-            "count": 90,
-            "count_including_variations": 90,
+            "count": 94,
+            "count_including_variations": 94,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 23,
-            "count_including_variations": 23,
+            "count": 22,
+            "count_including_variations": 22,
             "variations": []
         },
         {
             "name": "0.19.6",
-            "count": 7,
-            "count_including_variations": 9,
+            "count": 8,
+            "count_including_variations": 10,
             "variations": [
                 {
                     "name": "0.19.6-beta.7",
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 62,
-            "count_including_variations": 62,
+            "count": 61,
+            "count_including_variations": 61,
             "variations": []
         },
         {
@@ -61,8 +61,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 55,
-            "count_including_variations": 56,
+            "count": 56,
+            "count_including_variations": 57,
             "variations": [
                 {
                     "name": "0.19.3-103-g60f9a97df",
@@ -79,11 +79,11 @@
         {
             "name": "0.19.1",
             "count": 4,
-            "count_including_variations": 141,
+            "count_including_variations": 151,
             "variations": [
                 {
                     "name": "0.19.10",
-                    "count": 134
+                    "count": 144
                 },
                 {
                     "name": "0.19.10-beta.feddit",
