@@ -1,10 +1,10 @@
 {
-    "time": 1743314748,
+    "time": 1743401208,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 125,
-            "count_including_variations": 125,
+            "count": 122,
+            "count_including_variations": 122,
             "variations": []
         },
         {
@@ -15,8 +15,8 @@
         },
         {
             "name": "0.19.7",
-            "count": 22,
-            "count_including_variations": 22,
+            "count": 23,
+            "count_including_variations": 23,
             "variations": []
         },
         {
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 61,
-            "count_including_variations": 61,
+            "count": 58,
+            "count_including_variations": 58,
             "variations": []
         },
         {
@@ -61,8 +61,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 56,
-            "count_including_variations": 57,
+            "count": 54,
+            "count_including_variations": 55,
             "variations": [
                 {
                     "name": "0.19.3-103-g60f9a97df",
@@ -79,14 +79,14 @@
         {
             "name": "0.19.1",
             "count": 4,
-            "count_including_variations": 154,
+            "count_including_variations": 161,
             "variations": [
                 {
                     "name": "0.19.10",
-                    "count": 147
+                    "count": 154
                 },
                 {
-                    "name": "0.19.10-beta.feddit",
+                    "name": "0.19.10-feddit",
                     "count": 1
                 },
                 {
@@ -103,8 +103,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 9,
-            "count_including_variations": 10,
+            "count": 10,
+            "count_including_variations": 11,
             "variations": [
                 {
                     "name": "0.18.5-rc.2",
