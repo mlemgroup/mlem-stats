@@ -1,16 +1,16 @@
 {
-    "time": 1743487592,
+    "time": 1743574003,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 118,
-            "count_including_variations": 118,
+            "count": 114,
+            "count_including_variations": 114,
             "variations": []
         },
         {
             "name": "0.19.8",
-            "count": 92,
-            "count_including_variations": 92,
+            "count": 89,
+            "count_including_variations": 89,
             "variations": []
         },
         {
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 55,
-            "count_including_variations": 55,
+            "count": 59,
+            "count_including_variations": 59,
             "variations": []
         },
         {
@@ -61,8 +61,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 54,
-            "count_including_variations": 55,
+            "count": 53,
+            "count_including_variations": 54,
             "variations": [
                 {
                     "name": "0.19.3-103-g60f9a97df",
@@ -79,11 +79,11 @@
         {
             "name": "0.19.1",
             "count": 4,
-            "count_including_variations": 168,
+            "count_including_variations": 171,
             "variations": [
                 {
                     "name": "0.19.10",
-                    "count": 161
+                    "count": 164
                 },
                 {
                     "name": "0.19.10-feddit",
@@ -120,14 +120,14 @@
         },
         {
             "name": "0.18.3",
-            "count": 5,
-            "count_including_variations": 5,
+            "count": 4,
+            "count_including_variations": 4,
             "variations": []
         },
         {
             "name": "0.18.2",
-            "count": 9,
-            "count_including_variations": 9,
+            "count": 8,
+            "count_including_variations": 8,
             "variations": []
         },
         {
