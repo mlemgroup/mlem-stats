@@ -1,5 +1,5 @@
 {
-    "time": 1745042767,
+    "time": 1745129146,
     "versions": [
         {
             "name": "0.19.9",
@@ -9,20 +9,20 @@
         },
         {
             "name": "0.19.8",
-            "count": 75,
-            "count_including_variations": 75,
+            "count": 76,
+            "count_including_variations": 76,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 19,
-            "count_including_variations": 19,
+            "count": 20,
+            "count_including_variations": 20,
             "variations": []
         },
         {
             "name": "0.19.6",
-            "count": 8,
-            "count_including_variations": 10,
+            "count": 7,
+            "count_including_variations": 9,
             "variations": [
                 {
                     "name": "0.19.6-beta.7",
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 51,
-            "count_including_variations": 51,
+            "count": 49,
+            "count_including_variations": 49,
             "variations": []
         },
         {
@@ -75,15 +75,15 @@
         {
             "name": "0.19.1",
             "count": 4,
-            "count_including_variations": 237,
+            "count_including_variations": 244,
             "variations": [
                 {
                     "name": "0.19.10",
-                    "count": 56
+                    "count": 57
                 },
                 {
                     "name": "0.19.11",
-                    "count": 175
+                    "count": 181
                 },
                 {
                     "name": "0.19.11-feddit",
