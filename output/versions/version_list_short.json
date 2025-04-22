@@ -1,5 +1,5 @@
 {
-    "time": 1745215602,
+    "time": 1745301976,
     "versions": [
         {
             "name": "0.19.9",
@@ -9,8 +9,8 @@
         },
         {
             "name": "0.19.8",
-            "count": 75,
-            "count_including_variations": 75,
+            "count": 73,
+            "count_including_variations": 73,
             "variations": []
         },
         {
@@ -21,8 +21,8 @@
         },
         {
             "name": "0.19.6",
-            "count": 7,
-            "count_including_variations": 9,
+            "count": 6,
+            "count_including_variations": 8,
             "variations": [
                 {
                     "name": "0.19.6-beta.7",
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 49,
-            "count_including_variations": 49,
+            "count": 47,
+            "count_including_variations": 47,
             "variations": []
         },
         {
@@ -75,15 +75,15 @@
         {
             "name": "0.19.1",
             "count": 4,
-            "count_including_variations": 247,
+            "count_including_variations": 246,
             "variations": [
                 {
                     "name": "0.19.10",
-                    "count": 55
+                    "count": 52
                 },
                 {
                     "name": "0.19.11",
-                    "count": 186
+                    "count": 188
                 },
                 {
                     "name": "0.19.11-feddit",
@@ -121,8 +121,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 8,
-            "count_including_variations": 8,
+            "count": 7,
+            "count_including_variations": 7,
             "variations": []
         },
         {
@@ -138,8 +138,8 @@
         },
         {
             "name": "0.18.0",
-            "count": 2,
-            "count_including_variations": 3,
+            "count": 3,
+            "count_including_variations": 4,
             "variations": [
                 {
                     "name": "0.18.0-rc.5",
