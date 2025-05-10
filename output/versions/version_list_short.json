@@ -1,10 +1,10 @@
 {
-    "time": 1746770802,
+    "time": 1746857145,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 51,
-            "count_including_variations": 51,
+            "count": 50,
+            "count_including_variations": 50,
             "variations": []
         },
         {
@@ -15,8 +15,8 @@
         },
         {
             "name": "0.19.7",
-            "count": 17,
-            "count_including_variations": 17,
+            "count": 16,
+            "count_including_variations": 16,
             "variations": []
         },
         {
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 42,
-            "count_including_variations": 42,
+            "count": 41,
+            "count_including_variations": 41,
             "variations": []
         },
         {
@@ -57,25 +57,20 @@
         },
         {
             "name": "0.19.3",
-            "count": 50,
-            "count_including_variations": 51,
-            "variations": [
-                {
-                    "name": "0.19.3-103-g60f9a97df",
-                    "count": 1
-                }
-            ]
+            "count": 48,
+            "count_including_variations": 48,
+            "variations": []
         },
         {
             "name": "0.19.2",
-            "count": 1,
-            "count_including_variations": 1,
+            "count": 2,
+            "count_including_variations": 2,
             "variations": []
         },
         {
             "name": "0.19.1",
             "count": 3,
-            "count_including_variations": 281,
+            "count_including_variations": 280,
             "variations": [
                 {
                     "name": "0.19.11-18-g056537026",
@@ -83,7 +78,7 @@
                 },
                 {
                     "name": "0.19.11",
-                    "count": 239
+                    "count": 238
                 },
                 {
                     "name": "0.19.11-feddit",
@@ -101,8 +96,8 @@
         },
         {
             "name": "0.19.0",
-            "count": 1,
-            "count_including_variations": 1,
+            "count": 2,
+            "count_including_variations": 2,
             "variations": []
         },
         {
