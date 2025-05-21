@@ -1,5 +1,5 @@
 {
-    "time": 1747700412,
+    "time": 1747807614,
     "versions": [
         {
             "name": "0.19.9",
@@ -9,8 +9,8 @@
         },
         {
             "name": "0.19.8",
-            "count": 50,
-            "count_including_variations": 50,
+            "count": 51,
+            "count_including_variations": 51,
             "variations": []
         },
         {
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 36,
-            "count_including_variations": 36,
+            "count": 38,
+            "count_including_variations": 38,
             "variations": []
         },
         {
@@ -57,8 +57,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 50,
-            "count_including_variations": 50,
+            "count": 49,
+            "count_including_variations": 49,
             "variations": []
         },
         {
@@ -70,7 +70,7 @@
         {
             "name": "0.19.1",
             "count": 3,
-            "count_including_variations": 312,
+            "count_including_variations": 311,
             "variations": [
                 {
                     "name": "0.19.11-19-g2895f45e8",
@@ -82,7 +82,7 @@
                 },
                 {
                     "name": "0.19.11-n.1",
-                    "count": 6
+                    "count": 5
                 },
                 {
                     "name": "0.19.11-feddit",
@@ -106,8 +106,8 @@
         },
         {
             "name": "0.18.4",
-            "count": 9,
-            "count_including_variations": 10,
+            "count": 7,
+            "count_including_variations": 8,
             "variations": [
                 {
                     "name": "0.18.4-beta.8",
@@ -129,8 +129,8 @@
         },
         {
             "name": "0.18.1",
-            "count": 1,
-            "count_including_variations": 2,
+            "count": 0,
+            "count_including_variations": 1,
             "variations": [
                 {
                     "name": "0.18.1-rc.10",
