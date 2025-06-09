@@ -1,5 +1,5 @@
 {
-    "time": 1749362770,
+    "time": 1749449231,
     "versions": [
         {
             "name": "0.19.9",
@@ -9,14 +9,14 @@
         },
         {
             "name": "0.19.8",
-            "count": 36,
-            "count_including_variations": 36,
+            "count": 37,
+            "count_including_variations": 37,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 11,
-            "count_including_variations": 11,
+            "count": 12,
+            "count_including_variations": 12,
             "variations": []
         },
         {
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 34,
-            "count_including_variations": 34,
+            "count": 31,
+            "count_including_variations": 31,
             "variations": []
         },
         {
@@ -57,8 +57,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 47,
-            "count_including_variations": 47,
+            "count": 46,
+            "count_including_variations": 46,
             "variations": []
         },
         {
@@ -70,7 +70,7 @@
         {
             "name": "0.19.1",
             "count": 3,
-            "count_including_variations": 335,
+            "count_including_variations": 333,
             "variations": [
                 {
                     "name": "0.19.11-19-g2895f45e8",
@@ -78,7 +78,7 @@
                 },
                 {
                     "name": "0.19.11",
-                    "count": 290
+                    "count": 289
                 },
                 {
                     "name": "0.19.12-beta.11",
@@ -94,7 +94,7 @@
                 },
                 {
                     "name": "0.19.10",
-                    "count": 29
+                    "count": 28
                 },
                 {
                     "name": "0.19.12-beta.8",
@@ -112,8 +112,8 @@
         },
         {
             "name": "0.18.5",
-            "count": 5,
-            "count_including_variations": 5,
+            "count": 6,
+            "count_including_variations": 6,
             "variations": []
         },
         {
@@ -164,8 +164,8 @@
         },
         {
             "name": "0.17.3",
-            "count": 3,
-            "count_including_variations": 3,
+            "count": 2,
+            "count_including_variations": 2,
             "variations": []
         },
         {
