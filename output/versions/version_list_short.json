@@ -1,16 +1,16 @@
 {
-    "time": 1749535609,
+    "time": 1749622020,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 33,
-            "count_including_variations": 33,
+            "count": 32,
+            "count_including_variations": 32,
             "variations": []
         },
         {
             "name": "0.19.8",
-            "count": 34,
-            "count_including_variations": 34,
+            "count": 36,
+            "count_including_variations": 36,
             "variations": []
         },
         {
@@ -21,8 +21,8 @@
         },
         {
             "name": "0.19.6",
-            "count": 3,
-            "count_including_variations": 5,
+            "count": 4,
+            "count_including_variations": 6,
             "variations": [
                 {
                     "name": "0.19.6-beta.7",
@@ -36,14 +36,14 @@
         },
         {
             "name": "0.19.5",
-            "count": 32,
-            "count_including_variations": 32,
+            "count": 34,
+            "count_including_variations": 34,
             "variations": []
         },
         {
             "name": "0.19.4",
-            "count": 5,
-            "count_including_variations": 7,
+            "count": 4,
+            "count_including_variations": 6,
             "variations": [
                 {
                     "name": "0.19.4-rc.11",
@@ -57,8 +57,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 44,
-            "count_including_variations": 44,
+            "count": 45,
+            "count_including_variations": 45,
             "variations": []
         },
         {
@@ -69,8 +69,8 @@
         },
         {
             "name": "0.19.1",
-            "count": 2,
-            "count_including_variations": 317,
+            "count": 3,
+            "count_including_variations": 330,
             "variations": [
                 {
                     "name": "0.19.11-19-g2895f45e8",
@@ -78,11 +78,15 @@
                 },
                 {
                     "name": "0.19.11",
-                    "count": 278
+                    "count": 286
+                },
+                {
+                    "name": "0.19.12-beta.11",
+                    "count": 1
                 },
                 {
                     "name": "0.19.11-n.1",
-                    "count": 3
+                    "count": 6
                 },
                 {
                     "name": "0.19.11-feddit",
@@ -108,14 +112,14 @@
         },
         {
             "name": "0.18.5",
-            "count": 5,
-            "count_including_variations": 5,
+            "count": 6,
+            "count_including_variations": 6,
             "variations": []
         },
         {
             "name": "0.18.4",
-            "count": 6,
-            "count_including_variations": 6,
+            "count": 7,
+            "count_including_variations": 7,
             "variations": []
         },
         {
@@ -144,8 +148,13 @@
         {
             "name": "0.18.0",
             "count": 1,
-            "count_including_variations": 1,
-            "variations": []
+            "count_including_variations": 2,
+            "variations": [
+                {
+                    "name": "0.18.0-rc.5",
+                    "count": 1
+                }
+            ]
         },
         {
             "name": "0.17.4",
