@@ -1,10 +1,10 @@
 {
-    "time": 1749946954,
+    "time": 1750054045,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 30,
-            "count_including_variations": 30,
+            "count": 27,
+            "count_including_variations": 27,
             "variations": []
         },
         {
@@ -15,8 +15,8 @@
         },
         {
             "name": "0.19.7",
-            "count": 11,
-            "count_including_variations": 11,
+            "count": 10,
+            "count_including_variations": 10,
             "variations": []
         },
         {
@@ -42,8 +42,8 @@
         },
         {
             "name": "0.19.4",
-            "count": 3,
-            "count_including_variations": 5,
+            "count": 4,
+            "count_including_variations": 6,
             "variations": [
                 {
                     "name": "0.19.4-rc.11",
@@ -57,8 +57,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 43,
-            "count_including_variations": 43,
+            "count": 44,
+            "count_including_variations": 44,
             "variations": []
         },
         {
@@ -70,7 +70,7 @@
         {
             "name": "0.19.1",
             "count": 3,
-            "count_including_variations": 331,
+            "count_including_variations": 336,
             "variations": [
                 {
                     "name": "0.19.11-19-g2895f45e8",
@@ -78,18 +78,18 @@
                 },
                 {
                     "name": "0.19.11",
-                    "count": 245
+                    "count": 233
                 },
                 {
                     "name": "0.19.12",
-                    "count": 49
+                    "count": 70
                 },
                 {
                     "name": "0.19.11-n.1",
-                    "count": 4
+                    "count": 2
                 },
                 {
-                    "name": "0.19.11-feddit",
+                    "name": "0.19.12-beta.8-22-ge8d3cb264",
                     "count": 1
                 },
                 {
@@ -98,18 +98,14 @@
                 },
                 {
                     "name": "0.19.12-beta.8",
-                    "count": 2
-                },
-                {
-                    "name": "0.19.12-beta.8-2-ge019b425c-modified",
                     "count": 1
                 }
             ]
         },
         {
             "name": "0.18.5",
-            "count": 6,
-            "count_including_variations": 6,
+            "count": 5,
+            "count_including_variations": 5,
             "variations": []
         },
         {
@@ -126,8 +122,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 6,
-            "count_including_variations": 6,
+            "count": 5,
+            "count_including_variations": 5,
             "variations": []
         },
         {
