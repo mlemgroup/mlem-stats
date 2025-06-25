@@ -1,33 +1,29 @@
 {
-    "time": 1750745222,
+    "time": 1750766881,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 27,
-            "count_including_variations": 27,
+            "count": 24,
+            "count_including_variations": 24,
             "variations": []
         },
         {
             "name": "0.19.8",
-            "count": 34,
-            "count_including_variations": 34,
+            "count": 31,
+            "count_including_variations": 31,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 10,
-            "count_including_variations": 10,
+            "count": 8,
+            "count_including_variations": 8,
             "variations": []
         },
         {
             "name": "0.19.6",
             "count": 4,
-            "count_including_variations": 6,
+            "count_including_variations": 5,
             "variations": [
-                {
-                    "name": "0.19.6-beta.7",
-                    "count": 1
-                },
                 {
                     "name": "0.19.6-beta.14",
                     "count": 1
@@ -36,8 +32,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 31,
-            "count_including_variations": 31,
+            "count": 27,
+            "count_including_variations": 27,
             "variations": []
         },
         {
@@ -53,8 +49,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 43,
-            "count_including_variations": 43,
+            "count": 35,
+            "count_including_variations": 35,
             "variations": []
         },
         {
@@ -65,8 +61,8 @@
         },
         {
             "name": "0.19.1",
-            "count": 3,
-            "count_including_variations": 342,
+            "count": 1,
+            "count_including_variations": 300,
             "variations": [
                 {
                     "name": "0.19.12-4-gd8445881a",
@@ -74,11 +70,11 @@
                 },
                 {
                     "name": "0.19.11",
-                    "count": 200
+                    "count": 177
                 },
                 {
                     "name": "0.19.12",
-                    "count": 117
+                    "count": 104
                 },
                 {
                     "name": "0.19.12-beta.8-22-ge8d3cb264",
@@ -86,20 +82,20 @@
                 },
                 {
                     "name": "0.19.10",
-                    "count": 20
+                    "count": 16
                 }
             ]
         },
         {
             "name": "0.18.5",
-            "count": 6,
-            "count_including_variations": 6,
+            "count": 5,
+            "count_including_variations": 5,
             "variations": []
         },
         {
             "name": "0.18.4",
-            "count": 7,
-            "count_including_variations": 7,
+            "count": 5,
+            "count_including_variations": 5,
             "variations": []
         },
         {
@@ -110,8 +106,8 @@
         },
         {
             "name": "0.18.2",
-            "count": 4,
-            "count_including_variations": 4,
+            "count": 3,
+            "count_including_variations": 3,
             "variations": []
         },
         {
@@ -119,17 +115,6 @@
             "count": 1,
             "count_including_variations": 1,
             "variations": []
-        },
-        {
-            "name": "0.18.0",
-            "count": 1,
-            "count_including_variations": 2,
-            "variations": [
-                {
-                    "name": "0.18.0-rc.5",
-                    "count": 1
-                }
-            ]
         },
         {
             "name": "0.17.4",
