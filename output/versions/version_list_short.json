@@ -1,22 +1,22 @@
 {
-    "time": 1752386791,
+    "time": 1752473268,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 26,
-            "count_including_variations": 26,
+            "count": 23,
+            "count_including_variations": 23,
             "variations": []
         },
         {
             "name": "0.19.8",
-            "count": 27,
-            "count_including_variations": 27,
+            "count": 28,
+            "count_including_variations": 28,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 11,
-            "count_including_variations": 11,
+            "count": 10,
+            "count_including_variations": 10,
             "variations": []
         },
         {
@@ -36,17 +36,21 @@
         },
         {
             "name": "0.19.5",
-            "count": 30,
-            "count_including_variations": 30,
+            "count": 31,
+            "count_including_variations": 31,
             "variations": []
         },
         {
             "name": "0.19.4",
             "count": 3,
-            "count_including_variations": 4,
+            "count_including_variations": 5,
             "variations": [
                 {
                     "name": "0.19.4-rc.11",
+                    "count": 1
+                },
+                {
+                    "name": "0.19.4-rc.5",
                     "count": 1
                 }
             ]
@@ -74,11 +78,11 @@
                 },
                 {
                     "name": "0.19.12",
-                    "count": 170
+                    "count": 172
                 },
                 {
                     "name": "0.19.11",
-                    "count": 162
+                    "count": 161
                 },
                 {
                     "name": "0.19.12-beta.8-22-ge8d3cb264",
@@ -86,7 +90,7 @@
                 },
                 {
                     "name": "0.19.10",
-                    "count": 15
+                    "count": 14
                 }
             ]
         },
