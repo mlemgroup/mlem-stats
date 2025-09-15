@@ -1,22 +1,22 @@
 {
-    "time": 1757829987,
+    "time": 1757916443,
     "versions": [
         {
             "name": "0.19.9",
-            "count": 26,
-            "count_including_variations": 26,
+            "count": 25,
+            "count_including_variations": 25,
             "variations": []
         },
         {
             "name": "0.19.8",
-            "count": 28,
-            "count_including_variations": 28,
+            "count": 27,
+            "count_including_variations": 27,
             "variations": []
         },
         {
             "name": "0.19.7",
-            "count": 8,
-            "count_including_variations": 8,
+            "count": 7,
+            "count_including_variations": 7,
             "variations": []
         },
         {
@@ -36,8 +36,8 @@
         },
         {
             "name": "0.19.5",
-            "count": 26,
-            "count_including_variations": 26,
+            "count": 24,
+            "count_including_variations": 24,
             "variations": []
         },
         {
@@ -57,8 +57,8 @@
         },
         {
             "name": "0.19.3",
-            "count": 31,
-            "count_including_variations": 31,
+            "count": 28,
+            "count_including_variations": 28,
             "variations": []
         },
         {
@@ -70,7 +70,7 @@
         {
             "name": "0.19.1",
             "count": 2,
-            "count_including_variations": 435,
+            "count_including_variations": 424,
             "variations": [
                 {
                     "name": "0.19.12-4-gd8445881a",
@@ -78,15 +78,15 @@
                 },
                 {
                     "name": "0.19.12",
-                    "count": 198
+                    "count": 183
                 },
                 {
                     "name": "0.19.13",
-                    "count": 73
+                    "count": 78
                 },
                 {
                     "name": "0.19.11",
-                    "count": 136
+                    "count": 135
                 },
                 {
                     "name": "0.19.12-modified",
