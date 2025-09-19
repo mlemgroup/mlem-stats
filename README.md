@@ -1,3 +1,6 @@
+> [!note]
+> This project is now redundant. Older versions of Mlem would fetch data from files in this GitHub repo, which were routinely updated by a GitHub action. Newer versions of Mlem make REST requests to our [backend server](https://github.com/mlemgroup/mlem-backend) instead.
+
 A script that fetches instance data from https://data.lemmyverse.net/ and proccesses it into JSON files stored under the `output` directory. The script is executed every 24h by a Github Action. The Mlem client fetches the JSON files from the repo to display in-app data.
 
 # Data Schema
